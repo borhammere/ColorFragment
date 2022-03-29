@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ListFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/blue_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Синий"
+        app:backgroundTint="#0606B6" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/green_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Зелёный"
+        app:backgroundTint="#6DB606" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/red_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Красный"
+        app:backgroundTint="#CC0909" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/black_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Чёрный"
+        app:backgroundTint="#000000" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/yellow_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Жёлтый"
+        app:backgroundTint="#FFC107" />
+
+</LinearLayout>
